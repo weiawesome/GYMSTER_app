@@ -1,20 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import SignIn from "./SignIn";
+import Home from "./Home";
+import Setting from "./Setting";
+import SignUp from "./SignUp";
+import Branch from "./Branch";
+import Transaction from "./Transaction";
+import Calendar from "./Calendar";
+import Post from "./Post";
+import {NavigationContainer} from "@react-navigation/native";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+    const Stack = createNativeStackNavigator();
+    return (
+        <NavigationContainer>
+            <Stack.Navigator initialRouteName="Home" screenOptions={{ headerShown: false }}>
+                <Stack.Screen name="Home" component={Home} />
+                <Stack.Screen name="SignIn" component={SignIn}/>
+                <Stack.Screen name="SignUp" component={SignUp}/>
+                <Stack.Screen name="Setting" component={Setting}/>
+                <Stack.Screen name="Transaction" component={Transaction}/>
+                <Stack.Screen name="Branch" component={Branch}/>
+                <Stack.Screen name="Post" component={Post}/>
+                <Stack.Screen name="Calendar" component={Calendar}/>
+            </Stack.Navigator>
+        </NavigationContainer>
+    );
+};
