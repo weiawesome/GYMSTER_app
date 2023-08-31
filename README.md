@@ -6,3 +6,13 @@
 * Buy a course
 * Check the course you bought
 * ......
+
+# View
+![index.png](resource/index.png)
+
+# Demo
+## You can see [First video](resource/first_part.mp4)
+> It shows basic functions.
+
+## You can see [Second video](resource/second_part.mp4)
+> It shows basic functions.
