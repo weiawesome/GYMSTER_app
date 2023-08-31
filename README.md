@@ -7,7 +7,7 @@
 * Check the course you bought
 * ......
 
-# View
+# App's View
 ![index.png](resource/index.png)
 
 # Demo
