@@ -15,4 +15,4 @@
 > It shows basic functions.
 
 ## You can see [Second video](resource/second_part.mp4)
-> It shows basic functions.
+> It shows how to post in the app.
