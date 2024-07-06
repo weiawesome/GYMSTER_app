@@ -11,8 +11,18 @@
 ![index.png](resource/index.png)
 
 # Demo
-## You can see [First video](resource/first_part.mp4)
+## [Video demo about basic function](resource/first_part.mp4)
 > It shows basic functions.
 
-## You can see [Second video](resource/second_part.mp4)
+### Booking the resource
+![](resource/demo-part-1.gif)
+
+### Login, Register and Overview in App
+![](resource/demo-part-2.gif)
+
+## [Video demo about posting](resource/second_part.mp4)
 > It shows how to post in the app.
+
+### Get and Add the post
+![](resource/demo-part-3.gif)
+
